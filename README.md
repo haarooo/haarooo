@@ -1,24 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F172A,45:1D4ED8,100:38BDF8&height=230&section=header&text=유환빈&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Problem%20Solving%20Backend%20Developer%20%7C%20Spring%20Boot%20%C2%B7%20Kafka%20%C2%B7%20AI%2FRAG&descSize=18&descAlignY=62" />
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=문제를+끝까지+추적하는+Backend+Developer;Spring+Boot+%7C+Kafka+%7C+AI%2FRAG;기능+구현을+넘어+안정적인+구조로+개선합니다)](https://git.io/typing-svg)
-
-<br/>
-
-### 기능 구현을 넘어, 트랜잭션 · 이벤트 · 실시간 알림 · AI 연동까지 고민합니다.
-
-<p>
-  <img src="https://img.shields.io/badge/Java-0F172A?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring Boot-1D4ED8?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-0369A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kafka-111827?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI%2FRAG-2563EB?style=for-the-badge"/>
-</p>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F172A,45:1D4ED8,100:38BDF8&height=230&section=header&text=Hwanbin%20Yoo&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%EC%9D%84%20%EB%84%98%EC%96%B4%2C%20%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%B0%B1%EC%97%94%EB%93%9C%20%EA%B5%AC%EC%A1%B0%EB%A5%BC%20%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4%20%7C%20Backend%20Developer&descSize=18&descAlignY=62" />
 
 <br/>
 
@@ -159,16 +141,17 @@ Spring Boot 기반 백엔드 개발을 중심으로
   <img src="https://img.shields.io/badge/Java 17-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Spring Data JPA-59666C?style=for-the-badge&logo=spring&logoColor=white"/>
   <img src="https://img.shields.io/badge/MyBatis-111827?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
 </p>
 
-### Database / Message / Realtime
+### Database / Event / Realtime
 
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Apache Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Outbox Pattern-1E293B?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/WebSocket-111827?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/STOMP-0F172A?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Firebase FCM-FFCA28?style=for-the-badge&logo=firebase&logoColor=111827"/>
@@ -184,14 +167,21 @@ Spring Boot 기반 백엔드 개발을 중심으로
   <img src="https://img.shields.io/badge/RAG-2563EB?style=for-the-badge"/>
 </p>
 
-### Frontend / Mobile / Tools
+### Frontend / Mobile
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
   <img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+</p>
+
+### Tools / Collaboration
+
+<p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=111827"/>
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
 </p>
 
 <br/>
