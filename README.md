@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F172A,45:1D4ED8,100:38BDF8&height=230&section=header&text=Hwanbin%20Yoo&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Problem%20Solving%20Backend%20Developer%20%7C%20Spring%20Boot%20%C2%B7%20Kafka%20%C2%B7%20AI%2FRAG&descSize=18&descAlignY=62" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F172A,45:1D4ED8,100:38BDF8&height=230&section=header&text=유환빈&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Problem%20Solving%20Backend%20Developer%20%7C%20Spring%20Boot%20%C2%B7%20Kafka%20%C2%B7%20AI%2FRAG&descSize=18&descAlignY=62" />
 
 <br/>
 
