@@ -27,10 +27,9 @@
 안녕하세요. **백엔드 개발자 유환빈**입니다.
 
 Spring Boot 기반 백엔드 개발을 중심으로  
-**인증/권한, 트랜잭션, 동시성 제어, Kafka 이벤트 처리, 실시간 알림, AI 서버 연동**을 학습하고 구현하고 있습니다.
+**인증/권한, 트랜잭션, 동시성 제어, Kafka 이벤트 처리, 실시간 알림, LLM API 연동**을 구현한 경험이 있습니다.
 
-단순히 기능을 만드는 것에서 끝내지 않고,  
-**왜 이 구조가 필요한지, 장애 상황에서 어떻게 복구할 수 있는지, 유지보수하기 좋은 코드인지**를 고민합니다.
+
 
 <br/>
 
@@ -42,7 +41,7 @@ Spring Boot 기반 백엔드 개발을 중심으로
 | 데이터 정합성 | 트랜잭션 경계, 상태 전이, 중복 처리, 재시도 구조 고민 | 포인트 구매 / 리뷰 분석 상태 처리 |
 | 이벤트 기반 처리 | Kafka Producer/Consumer, Outbox Pattern, 비동기 이벤트 전달 | CafeOrderSystem |
 | 실시간 기능 | WebSocket/STOMP 채팅, Firebase FCM 푸시 알림 | checkmate |
-| AI 연동 | Spring Boot ↔ AI 서버 연동, 리뷰 감정 분석, RAG 답글 구조 | Cafe Review AI System |
+| AI 연동 | Spring Boot ↔ AI 서버 연동, 리뷰 감정 분석, RAG 답글 구조 | CafeOrderSystem |
 | 문제 해결 | 오류 원인 추적, 구조 개선, 구현 이후 안정성 보완 | AOP 인증 공통화 / Kafka 연결 / 트랜잭션 분리 |
 
 <br/>
@@ -151,67 +150,6 @@ Spring Boot 기반 백엔드 개발을 중심으로
 
 <br/>
 
-## 🔥 문제 해결 경험 | Problem Solving Highlights
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01. Outbox Pattern</h3>
-      <p>
-        리뷰 저장과 Kafka 이벤트 발행 사이에서 데이터 불일치가 발생할 수 있는 문제를 줄이기 위해,
-        리뷰 저장과 Outbox 이벤트 저장을 같은 트랜잭션으로 묶었습니다.
-      </p>
-      <ul>
-        <li>리뷰 저장</li>
-        <li>Outbox 이벤트 저장</li>
-        <li>Scheduler Relay가 Kafka 발행</li>
-        <li>실패 이벤트 상태 관리</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02. AI 분석 트랜잭션 분리</h3>
-      <p>
-        외부 LLM 호출 중 DB 트랜잭션을 오래 잡지 않도록,
-        분석 대상 선점과 분석 결과 저장 트랜잭션을 분리했습니다.
-      </p>
-      <ul>
-        <li>PENDING/FAILED 리뷰 선점</li>
-        <li>PROCESSING 고착 상태 복구</li>
-        <li>LLM 호출 구간 트랜잭션 제외</li>
-        <li>분석 완료 후 새 트랜잭션으로 저장</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03. AOP 인증 공통화</h3>
-      <p>
-        Controller마다 반복되던 인증 확인 로직을 AOP로 분리해
-        비즈니스 로직과 인증 공통 관심사를 분리했습니다.
-      </p>
-      <ul>
-        <li>중복 인증 코드 제거</li>
-        <li>Controller 책임 단순화</li>
-        <li>유지보수성 개선</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04. 실시간 알림 / 채팅</h3>
-      <p>
-        CheckMate에서 WebSocket/STOMP 기반 채팅과 Firebase FCM 푸시 알림을 구현하며
-        실시간 사용자 경험을 구성했습니다.
-      </p>
-      <ul>
-        <li>JWT 기반 WebSocket CONNECT 인증</li>
-        <li>방 멤버 권한 검증</li>
-        <li>DB 알림 저장</li>
-        <li>FCM Push 발송</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 ## 🛠 기술 스택 | Tech Stack
 
@@ -257,9 +195,3 @@ Spring Boot 기반 백엔드 개발을 중심으로
 </p>
 
 <br/>
-
-## 📌 현재 집중 중 | Currently Learning
-
-```txt
-Kafka · Outbox Pattern · Transaction Boundary · Concurrency Control
-Spring Batch · Query Optimization · FastAPI · AI Review Analysis · RAG
